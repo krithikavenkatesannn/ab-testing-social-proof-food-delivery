@@ -7,7 +7,7 @@ A randomized A/B experiment was simulated to measure the impact on conversion wh
 
 
 
-## Experiment Objective
+## Objective
 Determine whether displaying a social-proof badge increases order conversion without increasing cancellation rates.
 
 
