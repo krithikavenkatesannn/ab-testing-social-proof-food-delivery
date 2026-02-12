@@ -8,8 +8,7 @@ A randomized A/B experiment was simulated to measure the impact on conversion wh
 
 
 ## Objective
-Determine whether displaying a social-proof badge increases order conversion without increasing cancellation rates.
-
+Determine whether displaying a social-proof badge increases order conversions 
 
 ## Experiment Design
 - Experiment type: A/B test
@@ -22,6 +21,26 @@ Determine whether displaying a social-proof badge increases order conversion wit
 **Variants**
 - Control → No badge
 - Treatment → Social-proof badge displayed
+- 
+## Data Dictionary
+
+This project uses a synthetic dataset simulating user behavior in a food-delivery application during an A/B experiment.
+
+Each row represents a user exposed to either the control or treatment variant.
+
+### Table 
+
+| Field Name       | Type    | Description                                                   | Example      |
+|------------------|---------|---------------------------------------------------------------|-------------|
+| user_id          | STRING  | Unique identifier for each user                               | U_000123    |
+| date             | DATE    | Experiment exposure date                                      | 2025-12-01  |
+| variant          | STRING  | Experiment group assignment (control or treatment)            | treatment   |
+| ordered          | INTEGER | Whether the user placed an order (1 = yes, 0 = no)            | 1           |
+| menu_clicks      | INTEGER | Number of menu interactions                                   | 4           |
+| time_to_order    | FLOAT   | Time taken to place an order (only available for orders)      | 11.5        |
+| order_cancelled  | INTEGER | Whether the order was cancelled (1 = yes, 0 = no)             | 0           |
+| order_value      | FLOAT   | Value of the order (0 if no order placed)                     | 6.20        |
+
 
 
 
