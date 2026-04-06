@@ -7,9 +7,13 @@ Food delivery platforms typically offer users a wide variety of restaurants and 
 To reduce drop-offs and improve decision confidence, a **social proof badge** (e.g., **"Popular", "Most Ordered", "Trending"**) was introduced to highlight trusted items and guide user choices.
 
 **Objective:**  
+
 The primary goal of this experiment is to evaluate whether displaying a **social-proof badge increases order conversion rate** while ensuring **no negative impact on order quality metrics such as cancellations**.
 
----
+<p align="center">
+  <img src="images/Screenshot 2026-04-06 123007.png" width="800"/>
+</p>
+
 
 ## 🧪 **Experiment Design**
 
@@ -113,7 +117,9 @@ An **Independent two-sample T-test** was used to compare **average order value**
 ---
 
 ## 📊 **Results**
-
+<p align="center">
+  <img src="images/Screenshot 2026-04-06 122827.png" width="800"/>
+</p>
 ### 🎯 **Conversion Rate**
 
 The treatment group showed a **higher conversion rate (20.86%)** compared to the control group **(20.17%)**, resulting in a **+0.69 percentage point lift** (**+3.42% relative increase**).  
