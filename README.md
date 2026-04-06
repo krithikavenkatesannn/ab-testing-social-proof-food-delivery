@@ -46,7 +46,7 @@ Each row represents one user. Missing values in `time_to_order` and `order_value
 
 <br>
 <p align="center">
-  <img src="images/Screenshot 2026-04-06 122827.png" width="800"/>
+  <img src="images/Screenshot 2026-04-06 123007.png" width="800"/>
 </p>
 <br>
 
@@ -59,13 +59,14 @@ Each row represents one user. Missing values in `time_to_order` and `order_value
 * **Uncertainty note:** The 95% confidence interval for conversion lift is **[0.16pp, 1.22pp]**. The true effect could be as small as **0.16pp** — cautious optimism is warranted.
 
 
-
+**Interactive Dashboard:** [View in Power BI](https://app.powerbi.com/view?r=eyJrIjoiZDE5OGZmOTQtY2Q4My00MzUxLWFjMDYtZTFjMDAzNTI3ZjI2IiwidCI6IjBiNmM1ZjE0LTFmOGEtNDYxNy04YzI4LTJiZTc5M2FmYzBjMCJ9)
 
 ## 🔍 Deep Dive: The Novelty Decay Finding
 
+
 <br>
 <p align="center">
-  <img src="images/Screenshot 2026-04-06 123007.png" width="800"/>
+  <img src="images/Screenshot 2026-04-06 122827.png" width="800"/>
 </p>
 <br>
 
@@ -127,4 +128,4 @@ The badge increases conversion and order value with no significant change in can
 
 3. **Run a follow-up experiment at week 8** testing alternative badge designs ("Trending" vs "Most Ordered") to re-establish a baseline.
 
-The badge works. But proceed with eyes on the decay.
+
