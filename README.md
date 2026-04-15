@@ -42,7 +42,7 @@ Each row represents one user. Missing values in `time_to_order` and `order_value
 
 
 
-## 📊 Executive Summary of Results
+## 📊 Executive Summary 
 
 <br>
 <p align="center">
