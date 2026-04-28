@@ -1,4 +1,4 @@
-## 🔬 A/B Test: Impact of Social Proof Badge on Food Delivery Conversion
+## 🔬 A/B Test: Impact of Social Proof Badge on Food Delivery Conversion.
 
 
 ## 📌 Background & Objective
